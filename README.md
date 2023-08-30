@@ -263,7 +263,7 @@ with open(import_file, "w") as file:
     -----------------
 
 
-# Task 8 - Reset import_file contents 
+## Task 8 - Reset import_file contents 
 
 
 Running this code cell resets the `"allow_list.txt"` file to its original contents in case the file has been changed and for demonstration purposes for further tinkering of the file parse script.
