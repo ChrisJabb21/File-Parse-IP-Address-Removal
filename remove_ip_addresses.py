@@ -4,7 +4,7 @@ any IP addresses identified on the remove list. If so, the IP addresses are remo
 
 I went above and beyond and added the following:
 
-    - Functionality to track the the number of removals done on the file
+    - Functionality to track the number of removals done on the file
     - Output to show script actions performed
     - Logic to show output if no IP addresses entered in the remove list aren't present in the IP address allow list 
     - Optional functionality that can be removed to allow the script to be demoed  
