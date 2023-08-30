@@ -1,8 +1,8 @@
 # File-Parse-IP-Address-Removal
 
-# Cybersecurity Portfolio Activity: Update a file through a Python algorithm
+## Cybersecurity Portfolio Activity: Update a file through a Python algorithm
 
-## Introduction
+### Introduction
 
 The lab environment used is a Python notebook-based coding environment stored as an`.ipynb` file. 
 
