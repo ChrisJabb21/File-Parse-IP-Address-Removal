@@ -95,7 +95,7 @@ A second list called `remove_list` contains all of the IP addresses that should 
 
 The next step is to set up the header of the `for` loop that will iterate through the `remove_list` using `element` as the loop variable. The keyword we need for this is `for` to signal the beginning the `for` loop and the `in` keyword to specify iterating through the sequence of elements in the `remove_list` list. 
 
-I added an variable called `removal_counter` to count the number of removal operations done on the IP address allow list.
+I added an variable called `removal_counter` to count the number of removal operations done on the IP address allow list when the script is run.
 
 
 
@@ -144,7 +144,7 @@ print("Total number of IP addresses removed: " + str(removal_counter))
 
 ## Task 6 - Update the import_file with the revised list of IP addresses.
 
-The following code needed to update the `import_file` object is to update and convert ip_addresses from a list back into a string object using the the new line operator string `\n` and the `.join()` with the `ip_addresses` passed into the `.join()` method as argument.
+The following code needed to update the `import_file` object is to update and convert ip_addresses from a list back into a string object using the new line operator string `\n` and the `.join()` with the `ip_addresses` passed into the `.join()` method as argument.
 
 The new portion of code needed is to run the open() function on the
 `import_file` with the second argument of `"w"` to specify that a write operation is going to be done on the `import_file` as the file object called `file`.
@@ -243,7 +243,9 @@ with open(import_file, "w") as file:
 
     print("-----------------\n" + ip_addresses + "\n-----------------")
 
+
 ```
+#### Example Output
 
     IP address: 192.168.116.187, is not in the allow list.
     IP address: 192.168.15.110, is not in the allow list.
@@ -279,18 +281,18 @@ with open("allow_list.txt", "w") as file:
     print("allow_list.txt file reset for demo purposes")
 ```
 
+#### Example Output
+
     allow_list.txt file reset for demo purposes
 
 
 ## Conclusion
 
-**What are your key takeaways from this lab?**
-
 This script is an algorithm that checks whether an allow list text file contains any IP addresses identified on the remove list. If so, the IP addresses are removed from the file containing the allow list.
 
 I went above and beyond and added the following:
 
-    - Functionality to track the the number of IP Address removals
+    - Functionality to track the number of IP Address removals
     - Confirmation output to show script actions performed
     - Logic to show different output if no IP addresses entered in the remove list aren't present in the IP address allow list 
 
