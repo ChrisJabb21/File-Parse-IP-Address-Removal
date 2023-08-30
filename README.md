@@ -1,4 +1,4 @@
-# File-Parse-IP-Address-Removal
+# File-Parse-IP-Address-WhiteList-Removal
 
 ## Cybersecurity Portfolio Activity: Update a file through a Python algorithm
 
