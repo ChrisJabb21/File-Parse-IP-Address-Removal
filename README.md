@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The lab environment used is a Python notebook-based coding environment stored as an`.ipynb` file. 
+The lab environment used is a Python notebook-based coding environment stored as an `.ipynb` file. 
 
 An `.ipynb` file is a Python notebook file which contains the notebook code cells, markdown code cells, the execution results of the code cells and other internal settings in a specific format on the `Jupyter` environment.
 
