@@ -41,7 +41,7 @@ with open(import_file, “r”) as file:
 
 The variable `import_file` is created as a placeholder to hold the value of `"allow_list.txt"`, the filename of the file we would to open. 
 
-A `with` statement starting with the keyword `with` is used to open a resource  (in this case, the resource is the file we want to open) and guarantee that the resource will be closed when the `with` code block whether it completes successfully or not.
+A `with` statement starting with the keyword `with` is used to open a resource  (in this case, the resource is the file we want to open) and guarantee that the resource will be closed whether the `with` code block completes successfully or not.
 
 The `open()` function will do the action of opening the file and return the opened file as a file object.
     It takes two arguments in the following order, `import_file` for the file object to open and the string `"r"` to specify the file is opened for **reading**.
