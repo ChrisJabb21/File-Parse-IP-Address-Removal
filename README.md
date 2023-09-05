@@ -22,7 +22,7 @@ You are a security professional working at a health care company. As part of you
 There is an allow list for IP addresses permitted to sign into the restricted subnetwork. There's also a remove list that identifies which employees you must remove from this allow list.
 
 
-Note that running the code in task 1-3 will produce an error because it will only contain the fragments of code that will need to be run all at once in a single code cell; you'll complete this with statement in the task after this.
+Note that running the code in task 1-6 will produce an error because it will only contain the fragments of code that will need to be run all at once in a single code cell; you'll complete this with statement in the task after this.
 
 For that reason, the code will be broken down into steps and placed together at the end to be run.
 
